@@ -1,0 +1,27 @@
+﻿Build started 10/24/2017 4:53:15 PM.
+     1>Project "C:\Users\Mamathew\documents\visual studio 2013\Projects\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\PhoneBook.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\PhoneBook.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Contacts.cpp PhoneBook.cpp
+         PhoneBook.cpp
+     1>c:\users\mamathew\documents\visual studio 2013\projects\consoleapplication4\consoleapplication4\phonebook.cpp(1): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\mamathew\documents\visual studio 2013\projects\consoleapplication4\consoleapplication4\phonebook.cpp(2): warning C4627: '#include <string>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\mamathew\documents\visual studio 2013\projects\consoleapplication4\consoleapplication4\phonebook.cpp(3): warning C4627: '#include "Contacts.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\mamathew\documents\visual studio 2013\projects\consoleapplication4\consoleapplication4\phonebook.cpp(4): warning C4627: '#include <vector>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\mamathew\documents\visual studio 2013\projects\consoleapplication4\consoleapplication4\phonebook.cpp(107): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+         Contacts.cpp
+     1>c:\users\mamathew\documents\visual studio 2013\projects\consoleapplication4\consoleapplication4\contacts.cpp(1): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\mamathew\documents\visual studio 2013\projects\consoleapplication4\consoleapplication4\contacts.cpp(2): warning C4627: '#include <string>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+         Generating Code...
+     1>Done Building Project "C:\Users\Mamathew\documents\visual studio 2013\Projects\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.62
